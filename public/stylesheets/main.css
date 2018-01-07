@@ -1,0 +1,23 @@
+.thumbnail img {
+    width: 100%;
+    padding: 0;
+}
+
+.thumbnail {
+    width: auto;
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 8px;
+}
+
+#delete-form {
+    display: inline;
+}
+
+/* Google Maps */
+#map {
+    height: 400px;
+    width: 100%;
+}
