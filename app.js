@@ -25,8 +25,9 @@ var port = process.env.PORT;
 var ip = process.env.IP;
 
 // set mongoDB database
-mongoose.connect("mongodb://localhost/yelp_camp", {useMongoClient: true});
-
+// mongoose.connect("mongodb://localhost/yelp_camp", {useMongoClient: true});
+mongoose.connect("mongodb://admin:admindb@ds255347.mlab.com:55347/webcamp", {useMongoClient: true});
+// mongodb://admin:admindb@ds255347.mlab.com:55347/webcamp
 // set bodyparser template
 app.use(bodyParser.urlencoded({extended: true}));
 
